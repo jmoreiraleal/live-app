@@ -10,7 +10,7 @@
     @livewireStyles
     @vite(['resources/css/app.css','resources/js/app.js'])
 </head>
-<body>
+<body class="p-5">
     @yield('content')
     @livewire('dynamic-modal')
     @livewireScripts
