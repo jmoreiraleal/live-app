@@ -1,7 +1,7 @@
 @extends('template')
 
 @section('content')
-<!--@livewire('main-component')-->
+@livewire('main-component')
     <x-modal name="test" title="Modal 1">
         <!--Usa-se este para um modal simples-->
         <!--@slot('body')

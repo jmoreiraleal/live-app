@@ -8,7 +8,7 @@ class MainComponent extends Component
 {
     public function openModalWithExample()
     {
-        $this->dispatch('openModal',componentName: 'ola-mundo');
+        $this->dispatch('openModal',componentName: 'products');
     }
     public function render()
     {
