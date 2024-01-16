@@ -10,9 +10,8 @@ class ProductsTable extends Component
 {
     use WithPagination;
 
-    public $page = 1;
     public $search = '';
-    public $perPage = 10;
+    public $perPage = 8;
 
     public function updatingSearch()
     {
